@@ -28,7 +28,9 @@
     "*://*.basecamp.com/*",
     "*://*.atlassian.net/*",
     "*://*.producteev.com/*",
-    "*://*.bitbucket.org/*"
+    "*://*.bitbucket.org/*",
+    "*://youtrack.paragon-es.de/*",
+    "*://support.tineon.de/youtrack/*"
   ],
   "icons": {
     "16": "images/icon-16.png",
@@ -51,7 +53,9 @@
         "*://*.worksection.com/*",
         "*://*.basecamp.com/*",
         "*://*.atlassian.net/*",
-        "*://*.producteev.com/*"
+        "*://*.producteev.com/*",
+        "*://youtrack.paragon-es.de/*",
+        "*://support.tineon.de/youtrack/*"
       ],
       "css": ["styles/style.css"],
       "js": ["scripts/common.js"]
@@ -115,6 +119,14 @@
     {
       "matches": ["*://*.atlassian.net/*"],
       "js": ["scripts/content/jira.js"]
+    },
+    {
+      "matches": ["*://youtrack.paragon-es.de/*"],
+      "js": ["scripts/content/youtrack.js"]
+    },
+    {
+      "matches": ["*://support.tineon.de/youtrack/*"],
+      "js": ["scripts/content/youtrack.js"]
     }
   ]
 }
